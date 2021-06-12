@@ -1,0 +1,26 @@
+{
+  "name": "tabs",
+  "version": "1.0.0",
+  "description": "module tabs for page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godboibreath/js_modules-tabs.git"
+  },
+  "keywords": [
+    "tabs"
+  ],
+  "author": "rubtsovoa@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godboibreath/js_modules-tabs/issues"
+  },
+  "homepage": "https://github.com/godboibreath/js_modules-tabs#readme",
+  "devDependencies": {
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
+}

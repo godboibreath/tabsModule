@@ -1,0 +1,122 @@
+@import '_null_style.css';
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+.show {
+	display: inline-block;
+}
+
+.hide {
+	display: none
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.1;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+body {
+	text-decoration: none;
+	font-size: 24px;
+	font-family: New Tegomin;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+
+}
+
+.header {
+	background: rgb(95, 218, 201);
+}
+
+.header__title {
+	font-size: 100px;
+	text-align: center;
+}
+
+.content {
+	min-height: 100%;
+	flex: 1 0 auto;
+	background: rgb(158, 228, 170);
+}
+
+.content__wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.menu {
+	background: rgb(212, 177, 223);
+}
+
+.menu__items {
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.menu__item {
+	font-size: 42px;
+	margin: 15px 0;
+	background: rgb(149, 180, 236);
+	border-radius: 25%;
+}
+
+.menu__item-active {
+	background: rgb(76, 143, 231);
+}
+
+.tabs {}
+
+.tabs__content {}
+
+.tabs__block {
+	line-height: 1.5;
+	margin: 25px auto;
+}
+
+.tabs__title {
+	font-size: 42px;
+	text-align: center;
+}
+
+.tabs__subtitle {
+	font-size: 34px;
+	text-align: center;
+}
+
+.tabs__text {
+	text-shadow: 1px 0px 0.5px #000;
+}
+
+.footer {
+	background: rgb(235, 141, 141);
+}
+
+.footer__contacts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__contact {
+	font-size: 26px;
+	line-height: 1.5;
+	cursor: pointer;
+}
